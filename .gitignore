@@ -1,0 +1,15 @@
+# Node modules
+**/node_modules/
+
+# Environment variables
+**/.env
+
+# Uploaded files (gambar)
+**/uploads/
+
+# Build folder
+frontend/build/
+
+# Lainnya
+.DS_Store
+*.log
