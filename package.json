@@ -1,0 +1,9 @@
+{
+    "name": "toko-online-monorepo",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "install-backend": "cd backend && npm install",
+        "start": "cd backend && npm start"
+    }
+}
