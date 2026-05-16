@@ -3,4 +3,4 @@ builder = "NIXPACKS"
 buildCommand = "npm run install-backend"
 
 [deploy]
-startCommand = "npm start"
+startCommand = "npm run seed"
