@@ -109,7 +109,7 @@ const HomePage = () => {
             {featuredProducts.map(product => (
               <div key={product._id} className="group bg-surface-container-lowest rounded-xl overflow-hidden hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 flex flex-col">
                 <div className="aspect-square relative overflow-hidden bg-surface-container-high">
-                  <img alt={product.nama} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src={`https://toko-online-mern-v2-production.up.railway.app${product.gambar}`} />
+                  <img alt={product.nama} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src={product.gambar} />
                   <div className="opacity-0 translate-y-4 absolute inset-0 flex items-center justify-center bg-black/5 backdrop-blur-[2px] transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
                     <Link to={`/produk/${product._id}`} className="px-6 py-3 bg-white text-on-background font-button text-button rounded-full shadow-lg hover:bg-primary hover:text-on-primary transition-all">
                       View Details

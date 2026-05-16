@@ -22,7 +22,7 @@ const CartPage = () => {
               {cartItems.map((item) => (
                 <div key={item.product} className="bg-surface-container-lowest p-md rounded-xl flex flex-col sm:flex-row gap-md items-start sm:items-center shadow-[0px_4px_20px_rgba(0,0,0,0.03)] hover:scale-[1.01] transition-transform duration-300">
                   <div className="w-32 h-32 rounded-lg overflow-hidden bg-surface-container flex-shrink-0">
-                    <img alt={item.nama} className="w-full h-full object-cover" src={`https://toko-online-mern-v2-production.up.railway.app${item.gambar}`} />
+                    <img alt={item.nama} className="w-full h-full object-cover" src={item.gambar} />
                   </div>
                   <div className="flex-grow">
                     <h3 className="font-headline-md text-headline-md mb-1">{item.nama}</h3>

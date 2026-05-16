@@ -133,7 +133,7 @@ const CheckoutPage = () => {
               {cartItems.map((item) => (
                 <div key={item.product} className="flex items-center gap-md">
                   <div className="w-16 h-16 bg-white rounded-lg overflow-hidden border border-outline-variant/20 flex-shrink-0">
-                    <img className="w-full h-full object-cover" alt={item.nama} src={`https://toko-online-mern-v2-production.up.railway.app${item.gambar}`}/>
+                    <img className="w-full h-full object-cover" alt={item.nama} src={item.gambar}/>
                   </div>
                   <div className="flex-grow">
                     <h3 className="font-body-md text-body-md font-semibold text-on-background">{item.nama}</h3>
