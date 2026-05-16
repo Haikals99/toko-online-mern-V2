@@ -1,6 +1,6 @@
 /* eslint-disable import/first */
-import LogRocket from 'logrocket';
-LogRocket.init('ahilgj/toko-online-mern-v2');
+// import LogRocket from 'logrocket';
+// LogRocket.init('ahilgj/toko-online-mern-v2');
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
