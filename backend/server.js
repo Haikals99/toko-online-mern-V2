@@ -5,6 +5,7 @@ const multer = require('multer');
 const path = require('path');
 const fs = require('fs');
 const authRoutes = require('./Routes/authRoutes');
+const orderRoutes = require('./Routes/orderRoutes');
 
 require('dotenv').config();
 
@@ -184,6 +185,9 @@ app.delete('/api/produk/:id', async (req, res) => {
 
 // ========== ROUTE AUTH ==========
 app.use('/api/auth', authRoutes);
+
+// ========== ROUTE ORDER ==========
+app.use('/api/orders', orderRoutes);
 
 // ========== MENJALANKAN SERVER ==========
 const PORT = process.env.PORT || 5000;
