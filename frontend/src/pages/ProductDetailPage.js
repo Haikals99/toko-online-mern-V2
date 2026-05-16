@@ -46,14 +46,14 @@ const ProductDetailPage = () => {
         {/* Left: Image Gallery (Asymmetric Bento-ish Layout) */}
         <div className="lg:col-span-7 space-y-gutter">
           <div className="aspect-[4/5] rounded-xl overflow-hidden bg-surface-container shadow-sm group">
-            <img alt={product.nama} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src={`http://localhost:5000${product.gambar}`} />
+            <img alt={product.nama} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src={`https://toko-online-mern-v2-production.up.railway.app${product.gambar}`} />
           </div>
           <div className="grid grid-cols-2 gap-gutter">
             <div className="aspect-square rounded-xl overflow-hidden bg-surface-container">
-              <img alt="Detail 1" className="w-full h-full object-cover hover:opacity-90 transition-opacity cursor-pointer" src={`http://localhost:5000${product.gambar}`} />
+              <img alt="Detail 1" className="w-full h-full object-cover hover:opacity-90 transition-opacity cursor-pointer" src={`https://toko-online-mern-v2-production.up.railway.app${product.gambar}`} />
             </div>
             <div className="aspect-square rounded-xl overflow-hidden bg-surface-container">
-              <img alt="Detail 2" className="w-full h-full object-cover hover:opacity-90 transition-opacity cursor-pointer" src={`http://localhost:5000${product.gambar}`} />
+              <img alt="Detail 2" className="w-full h-full object-cover hover:opacity-90 transition-opacity cursor-pointer" src={`https://toko-online-mern-v2-production.up.railway.app${product.gambar}`} />
             </div>
           </div>
         </div>

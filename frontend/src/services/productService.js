@@ -1,6 +1,6 @@
 import axiosInstance from '../utils/axiosConfig';
 
-const API_URL = `${process.env.REACT_APP_API_URL || 'http://localhost:5000'}/api/produk`;
+const API_URL = `${process.env.REACT_APP_API_URL || 'https://toko-online-mern-v2-production.up.railway.app'}/api/produk`;
 
 export const getProducts = async () => {
   const response = await axiosInstance.get(API_URL);

@@ -2,7 +2,7 @@ import axios from 'axios';
 import authService from '../services/authService';
 
 const axiosInstance = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://toko-online-mern-v2-production.up.railway.app/api',
 });
 
 axiosInstance.interceptors.request.use(

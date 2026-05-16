@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-
+import LogRocket from 'logrocket';
 import { BrowserRouter } from 'react-router-dom';
 import { CartProvider } from './context/CartContext';
-
 import App from './App';
+
+LogRocket.init('haikal-toko-online/production');
 
 const root = ReactDOM.createRoot(
   document.getElementById('root')
