@@ -5,7 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { CartProvider } from './context/CartContext';
 import App from './App';
 
-LogRocket.init('haikal-toko-online/production');
+LogRocket.init('ahilgj/toko-online-mern-v2');
 
 const root = ReactDOM.createRoot(
   document.getElementById('root')
